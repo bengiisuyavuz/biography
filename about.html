@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form>
+    <div>
+        <label for="ad"> Ad:</label>
+        <input type="text" id="ad" name="Ad" >
+    </div>
+    <div>
+        <label for="soyad"> Soyad:</label>
+        <input type="text" id="soyad" name="Soyad" >
+    </div>
+    <div>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="E-mail" >
+    </div>
+    <div>
+        <label for="date">Doğum Tarihi:</label>
+        <input type="date" id="date" name="Doğum Tarihi:">
+    </div>
+    <div>
+        <label>Cinsiyet:</label>
+        <label for="woman">Kadın</label>
+        <input type="radio" id="woman" name="gender" >
+        <label for="man">Erkek</label>    
+        <input type="radio" id="man" name="gender">
+        <label for="lgbt">LGBT</label>    
+        <input type="radio" id="lgbt" name="gender">
+        <label for="nogender">Cinsiyetimi belirtmek istemiyorum. </label>    
+        <input type="radio" id="nogender" name="gender">
+    </div>
+    <div>
+        <label for="phone">Telefon Numarası:</label>
+        <input type="tel" id="phone" name="Telefon Numarası:" placeholder="123-456-67-89" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+    </div>
+    <div>
+        <label for="password">Şifre:</label>
+        <input type="password" id="password" name="Şifre" >
+    </div>
+    <input type="reset" value="Resetle">
+    <div>
+    <input type="submit" value="Gönder">
+    </div>
+</form>
+</body>
+</html>
